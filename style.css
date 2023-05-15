@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #fed700;
+    
+}
+
+img{
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 80px;
+    color: #fe218b;
+}
+
+.nome{
+    text-align: center;
+    font-size: 22px;
+    margin-top: -0.9%;
+    color: #21b0fe;
+    font-style: italic;
+}
+
+.biografia{
+    display: grid;
+    justify-content: center;
+    margin: 5vh 15vh;
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #0d88ca;
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(59, 59, 59);
+}
+
+nav{
+    background-color: #21b0fe;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #21b0fe;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.img_txt{
+   align-items: flex-end;
+   margin-top: 0%;
+   height: 350px;
+   margin-inline-end: 20px;
+}
+.img_txt2{
+    display: flexbox;
+    align-items:flex-end;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-inline: 20px;
+    height: 300px;
+ }
+ 
+ .disque100{
+    max-width:300px;
+    height: auto;
+    align-items: center;
+    margin: auto auto auto;
+ }
